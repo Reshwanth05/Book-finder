@@ -1,0 +1,29 @@
+.genre-suggestions {
+  margin: 30px auto;
+  max-width: 1200px;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.genre-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 10px;
+}
+
+.genre-btn {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.genre-btn:hover {
+  background: #0056b3;
+}

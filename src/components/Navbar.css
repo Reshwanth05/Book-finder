@@ -1,0 +1,107 @@
+.navbar {
+  position: sticky;
+  top: 0;
+  width: 1430px;
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  z-index: 1000;
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+}
+
+.navbar-title {
+  font-size: 22px;
+  font-weight: bold;
+  color: #1e90ff; /* Blue */
+}
+
+.navbar-center {
+  flex: 1;
+  display: flex;
+  flex-direction: column; /* ✅ stack form + history vertically */
+  align-items: center;
+  justify-content: center;
+}
+
+.search-form {
+  display: flex;
+  gap: 10px;
+}
+
+.search-form input {
+  padding: 8px 12px;
+  border-radius: 5px;
+  border: none;
+  width: 250px;
+  outline: none; /* ✅ remove blue border on click */
+}
+
+.search-form button {
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  background: #007bff;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.search-form button:hover {
+  background: #0056b3;
+}
+
+/* ✅ Search History Styling */
+.search-history {
+  margin-top: 8px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
+}
+
+.search-history button {
+  background: #333;
+  color: #fff;
+  border: none;
+  border-radius: 15px;
+  padding: 5px 12px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.search-history button:hover {
+  background: #1e90ff;
+}
+.navbar-right {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+}
+
+.fav-link {
+  color: #ff4d6d;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 6px 10px;
+  border-radius: 6px;
+  transition: background 0.3s ease;
+}
+
+.fav-link:hover {
+  background: rgba(255, 77, 109, 0.15);
+}
