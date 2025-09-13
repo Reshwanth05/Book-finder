@@ -78,6 +78,10 @@ git push -u origin main
 ```
 The repository is now live on GitHub. For hosting, this project can be deployed on GitHub.
 
+Live Demo
+Deployed on CodeSandBox https://codesandbox.io/p/github/Reshwanth05/Book-finder/draft/bold-jepsen?workspaceId=ws_XvdCXJUucg4HjPrHb5BECw
+
+also deployed in Stackblitz https://stackblitz.com/~/github.com/Reshwanth05/Book-finder
 
 
 
